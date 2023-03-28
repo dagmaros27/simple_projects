@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="playy.css">
+    <title>Game</title>
+  
+</head>
+<body>
+    <div class="container">
+        <div class="game">
+            <div id="hud">
+                <div class="hudItem">
+                    <div id="progressText">Question</div>
+                    <div id="progress-box">
+                        <div id="progress-full"></div>
+                    </div>
+                </div>
+                <div class="hudItem">
+                    <div class="hudPrefix">Score</div>
+                    <h1 class="hudText" id="score">0</h1>
+                </div>
+            </div>
+            <h3 id="question">1.What is the answer to this question?</h3>
+            <div class="choice">
+                <span class="choice-prefix" >A</span>
+                <span class="choice-text" data-number="1">choice 1</span>
+            </div>
+            <div class="choice">
+                <span class="choice-prefix" >B</span>
+                <span class="choice-text" data-number="2">choice 2</span>
+            </div>
+            <div class="choice">
+                <span class="choice-prefix" >C</span>
+                <span class="choice-text" data-number="3">choice 3</span>
+            </div>
+            <div class="choice">
+                <span class="choice-prefix" >D</span>
+                <span class="choice-text" data-number="4">choice 4</span>
+            </div>
+        </div>
+    </div>
+    <script type = "text/javascript" src="game.js"></script>
+</body>
+</html>
