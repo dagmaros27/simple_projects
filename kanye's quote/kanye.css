@@ -1,0 +1,49 @@
+body{
+    background-image: url(kw2.jpg);
+    background-size:inherit;
+    background-repeat: unset; 
+}
+.big{
+    width:100vw;
+    height:90vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+h2{
+    color:greenyellow;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-right: 10rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 30vh;
+    border-radius:10px;
+}
+#quote{
+    width:70%;
+    height:40%;
+    background-color: rgba(200, 200, 205, 0.5);
+    flex-wrap: wrap;
+
+}
+#btn{
+    color:white;
+    background-color:rgba(0, 0, 0, 0.6) ;
+    margin-top:15px;
+    font-size: larger;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width:20%;
+    height:15%;
+}
+#btn:hover{
+    color:black;
+    background-color:rgba(244, 240, 244, 0.6) ;
+    border:none;
+}
